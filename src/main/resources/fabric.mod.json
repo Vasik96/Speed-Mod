@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "speedmod",
+  "version": "${version}",
+  "name": "speedmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/leman/speedmod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/speedmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.example.speedmod.speedmod.client.SpeedmodClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
